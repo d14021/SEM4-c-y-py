@@ -17,5 +17,22 @@ def ejer1():
         print("Resta: ", (num1-num2))
         print("Multiplicación: ", (num1*num2))
         print("División: ", (num1/num2))
+    
+    import math #importando libreria math
+
+    def ejer4():
+        num = float(imput("Ingrese número decimal: "))
+
+        raiz = math.sqrt(num)
+        redo = round(num,2)
+        cubo = math.pow(num,3)
+        cubica = num ** (1/3)
+
+        print("Raiz cuadrada: ",raiz)
+        print("Redondeado: ", redo)
+        print("al cubo: ", cubo)
+        print("raiz cubica: ",cubica)
+
+
 
 ejer1()
