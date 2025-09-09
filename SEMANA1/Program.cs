@@ -69,6 +69,11 @@ namespace SEMANA1
 
         static void ejer5()
         {
+            Console.WriteLine("Ingrese un número: ");
+            string num = Console.ReadLine();
+
+            int entero = int.Parse(num);
+            double e
 
         }
 
